@@ -1,4 +1,9 @@
 @import '~normalize.css';
-@import 'style/fonts';
-@import 'style/var';
-@import 'style/style';
+@import "style/global/mixins";
+@import "style/global/fonts";
+@import "style/global/variables";
+@import "style/global/global";
+@import "style/block/container";
+@import "style/block/button";
+@import "style/block/page";
+@import "style/block/header";
